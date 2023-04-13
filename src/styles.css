@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.product-item span {
+  width: 30%;
+}
